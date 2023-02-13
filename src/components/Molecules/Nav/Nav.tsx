@@ -1,4 +1,4 @@
-import NavLink from "components/Atoms/NavLink/NavLink";
+import NavLink from "@/components/Atoms/Navlink/NavLink";
 
 const links = [
   {

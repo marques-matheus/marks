@@ -1,4 +1,4 @@
-import NavLink from "components/Atoms/NavLink/NavLink";
+import NavLink from "../../Atoms/Navlink";
 
 type NavMobileProps = {
   isOpen: boolean;

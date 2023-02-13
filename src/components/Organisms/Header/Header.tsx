@@ -1,5 +1,5 @@
-import Nav from "components/Molecules/Nav";
-import NavMobile from "components/Molecules/NavMobile";
+import Nav from "@/components/Molecules/Nav";
+import NavMobile from "@/components/Molecules/MobileNav";
 import {GiHamburgerMenu} from "react-icons/gi";
 import Image from "next/image";
 import React from "react";
