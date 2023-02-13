@@ -7,11 +7,13 @@ export default function NavLink({
   text: string;
 }) {
   return (
-    <Link
-      href={href}
-      className="text-gray-800 hover:text-blue-600 hover:border-b-2 hover:border-blue-600 transition-all px-3 py-2  text-sm font-medium"
-    >
-      {text}
-    </Link>
+    <li>
+      <Link
+        href={href}
+        className="text-marks-500 hover:text-marks-100 hover:border-b-2 hover:border-marks-100 transition-all px-3 py-2 text-lg lg:text-md mx-2 fontsemi-bold lg:font-medium"
+      >
+        {text}
+      </Link>
+    </li>
   );
 }
