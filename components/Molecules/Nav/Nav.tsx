@@ -1,6 +1,11 @@
 import NavLink from "components/Atoms/NavLink/NavLink";
+import { type } from "os";
 
-const data = [
+type props = {
+  open: boolean;
+  setOpen: (open: boolean) => void;
+};
+const links = [
   {
     link: "/",
     text: "Home",
@@ -11,11 +16,14 @@ const data = [
   },
 ];
 
-export default function Nav() {
+export default function Nav({ open, setOpen }: props) {
   return (
-    <nav>
-      {data.map((link, index) => (
-        <NavLink key={index} href={link.link} text={link.text} />
+    <nav
+    
+      {...(open ? { className: "flex flex-col" } : { className: "hidden lg:flex lg:flex-row" })}
+    >
+      {links.map((link, index) => (
+        <NavLink  key={index} href={link.link} text={link.text} />
       ))}
     </nav>
   );
