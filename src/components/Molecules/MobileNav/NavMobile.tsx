@@ -1,31 +1,11 @@
 import NavLink from "../../Atoms/Navlink";
+import links from '../../../Mocks/links'
 
 type NavMobileProps = {
   isOpen: boolean;
 };
 
-const links = [
-  {
-    link: "/",
-    text: "Home",
-  },
-  {
-    link: "https://www.google.com",
-    text: "Serviços",
-  },
-  {
-    link: "https://www.google.com",
-    text: "Sobre",
-  },
-  {
-    link: "https://www.google.com",
-    text: "Contato",
-  },
-  {
-    link: "https://www.google.com",
-    text: "Parceiros",
-  },
-];
+
 export default function NavMobile({ isOpen }: NavMobileProps) {
   return (
     <nav className={`box-border 
