@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Organisms/Header/Header'
+import Banner from '@/components/Atoms/Banner'
+import ServiceCard from '@/components/Molecules/ServiceCard'
 
 
 
@@ -14,6 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <Banner />
+      <ServiceCard />
      
     </>
   )

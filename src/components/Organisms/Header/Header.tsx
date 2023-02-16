@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="bg-white py-5 px-8 lg:px-16 justify-between lg:justify-around flex flex-row items-center">
+    <header className="bg-white py-5 px-8 lg:px-16 justify-between lg:justify-around flex w-full flex-row items-center fixed">
       <Image
         src="/logo-dark.png"
         alt="Next.js Logo"
