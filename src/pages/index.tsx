@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "@/components/Organisms/Header/Header";
 import Banner from "@/components/Atoms/Banner";
 import ServiceCard from "@/components/Molecules/ServiceCard";
-
+import Footer from "@/components/Organisms/Footer";
 
 export default function Home() {
   return (
@@ -17,8 +17,8 @@ export default function Home() {
       <main>
         <Banner />
         <ServiceCard />
-      
       </main>
+      <Footer />
     </>
   );
 }
