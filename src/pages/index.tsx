@@ -3,6 +3,8 @@ import Header from "@/components/Organisms/Header/Header";
 import Banner from "@/components/Atoms/Banner";
 import ServiceCard from "@/components/Molecules/ServiceCard";
 import Footer from "@/components/Organisms/Footer";
+import About from "@/components/Molecules/About";
+import Levels from "@/components/Molecules/Levels";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <main>
         <Banner />
         <ServiceCard />
+        <About />
+        <Levels />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export default function ServiceCard() {
         {services.map((service) => (
           <div
             key={service.id}
-            className="w-96 h-64 flex flex-col  gap-5 border-t-2 border-gray-200 p-5 hover:bg-gray-50 transition-all"
+            className="w-96 h-64 flex flex-col  gap-5 border-b-2 border-gray-200 p-5 hover:bg-gray-50 transition-all"
           >
             <div className="flex flex-row space-x-3 items-center h-fit w-full text-marks-700">
               {service.icon}
