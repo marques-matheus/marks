@@ -10,7 +10,7 @@ export default function Header() {
     <header className="bg-white py-5 px-8 lg:px-16 justify-between lg:justify-around flex w-full flex-row items-center fixed">
       <Image
         src="/logo-dark.png"
-        alt="Next.js Logo"
+        alt="Marks Logo"
         width={130}
         height={37}
         priority

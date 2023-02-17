@@ -1,9 +1,9 @@
 import services from "../../../Mocks/services.js";
-
+import Heading from "../../Atoms/Heading/Heading";
 export default function ServiceCard() {
   return (
     <section className="px-80 py-10" id="services">
-      <h2 className="text-marks-600 text-2xl font-semibold my-5">Nossos Serviços</h2>
+      <Heading text="Nossos Serviços" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {services.map((service) => (
           <div
