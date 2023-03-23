@@ -90,6 +90,14 @@ body {
   scroll-behavior: smooth;
 }
 
+.swiper-wrapper{
+   align-items: center;
+   gap: 1rem;
+}
+.swiper-slide, .swiper-slide-active{
+  width: fit-content;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
   

@@ -5,6 +5,7 @@ import ServiceCard from "@/components/Molecules/ServiceCard";
 import Footer from "@/components/Organisms/Footer";
 import About from "@/components/Molecules/About";
 import Levels from "@/components/Molecules/Levels";
+import Slider from "@/components/Organisms/Slider";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Banner />
         <ServiceCard />
         <About />
+        <Slider />
         <Levels />
       </main>
       <Footer />
