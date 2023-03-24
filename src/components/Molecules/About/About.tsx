@@ -2,7 +2,7 @@ import Heading from "@/components/Atoms/Heading";
 
 export default function About() {
   return (
-    <section className="px-80 my-10 py-10" id="about">
+    <section className="px-2 mx-auto lg:px-4 xl:px-32 2xl:px-80" id="about">
       <Heading text="Sobre nós" />
       <p className="text-marks-100">
         Somos uma empresa nova, porém com muita experiência agregada, formada
