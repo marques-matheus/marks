@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 import 'swiper/css/bundle';
-import {partners} from '../../../Mocks/partners';
+import {partners} from '../../../../public/partners';
 
 import Heading from '@/components/Atoms/Heading';
 
@@ -57,7 +57,7 @@ export default function Slider() {
           <img 
             src={partner.img}
             alt={partner.name}
-            className='max-w-xs max-h-36 w-20 sm:w-28'         
+            className='max-w-xs max-h-36 w-20 sm:w-28 lg:w-32 '         
             
             
             />
