@@ -9,12 +9,10 @@ type NavMobileProps = {
 export default function NavMobile({ isOpen }: NavMobileProps) {
   return (
     <nav className={`box-border 
-    absolute  left-0 w-full h-fit py-10 bg-white z-10
+    absolute  left-0 w-full h-fit py-10 bg-white z-2
     ease-in-out duration-500
-    ${isOpen ? "top-20" : "-top-20"}
-    ${isOpen ? "opacity-100" : "opacity-0"}
-    ${isOpen ? "flex" : "hidden"}
-    lg:hidden flex flex-col justify-end text-right items-end`}>
+    ${isOpen ? "top-20" : "-top-80 opacity-0"}
+    lg:hidden flex flex-col justify-end text-right items-end transition-all ease-in-out duration-500`}>
       <ul className="box-content flex flex-col">
         {links.map((link, index) => (
           <NavLink key={index} href={link.link} text={link.text} />

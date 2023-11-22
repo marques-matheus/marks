@@ -1,22 +1,22 @@
 const links = [
   {
     link: "/",
-    text: "Home",
+    text: "Inicio",
   },
   {
     link: "#services",
     text: "Serviços",
   },
   {
-    link: "https://www.google.com",
+    link: "#about",
     text: "Sobre",
   },
   {
-    link: "https://www.google.com",
+    link: "#contact",
     text: "Contato",
   },
   {
-    link: "https://www.google.com",
+    link: "#partners",
     text: "Parceiros",
   },
 ];

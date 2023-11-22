@@ -4,7 +4,7 @@ import { phones, email, socials } from "../../../Mocks/contact";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-marks-500">
+    <footer className="py-4 px-10 bg-white sm:py-6 dark:bg-marks-500">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <Image
@@ -15,23 +15,9 @@ export default function Footer() {
             priority
           />
         </div>
-        <div className="grid grid-cols-2 gap-12  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12  ">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Navegue pelo site
-            </h2>
-            <ul className="text-marks-400">
-              {Links.map((link) => (
-                <li key={link.text}>
-                  <a
-                    href={link.link}
-                    className=" hover:text-marks-700 dark:hover:text-white hover:underline"
-                  >
-                    {link.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            
           </div>
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
@@ -55,15 +41,15 @@ export default function Footer() {
         </div>
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2023{" "}
-          <a href="https://marksit.info/" className="hover:underline">
+      <div className="sm:flex sm:items-center sm:justify-between items-center justify-center">
+        <span className="text-sm text-gray-500 text-center dark:text-gray-400">
+          &copy; {new Date().getFullYear()} -
+          <a href="https://marksit.info/" className="hover:underline mx-1">
             Marks It
           </a>
           . Todos os direitos reservados
         </span>
-        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+        <div className="flex mt-4 space-x-6 justify-center sm:mt-0">
           {socials.map((social) => (
             <a
               key={social.id}
