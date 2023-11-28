@@ -8,10 +8,10 @@ import Heading from '@/components/Atoms/Heading';
 
 export default function Slider() {
   return (<>
-      <div className='px-2 mx-auto lg:px-4 xl:px-32 2xl:px-80 py-10'>
+      <div className='px-2 mx-auto lg:px-4 xl:px-32 2xl:px-80 py-10' id='partners'>
         <Heading text="Nossos parceiros" />
       </div>
-  <section className='p-8 bg-gray-100'  id="partners">
+  <section className='p-8 bg-gray-100'  >
   <Swiper
     
     spaceBetween={50}

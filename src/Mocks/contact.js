@@ -1,18 +1,14 @@
-import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const phones = [
   {
     id: 1,
-    phone: "(21)987654321",
+    phone: "(21) 97962-1864",
   },
   {
     id: 2,
-    phone: "(21)987654321",
-  },
-  {
-    id: 3,
-    phone: "(21)987654321",
-  },
+    phone: "(21) 99379-4043",
+  }
 ];
 
 const email = [
@@ -32,20 +28,20 @@ const email = [
 
 const socials = [
   {
-    id: 1,
-    social: "Facebook.com",
-    icon: <FaFacebook size={24} className="hover:text-marks-300 transition-all ease-out"/>,
-  },
-  {
     id: 2,
-    social: "LinkedIn.com",
+    social: "https://www.linkedin.com/in/marks-it-consulting-e-services",
     icon: <FaLinkedin size={24} className="hover:text-marks-300 transition-all ease-out"/>,
   },
   {
     id: 3,
-    social: "Instagram.com",
+    social: "https://www.instagram.com/marks.it/",
     icon: <FaInstagram size={24} className="hover:text-marks-300 transition-all ease-out"/>,
   },
+  {
+    id: 4,
+    social: "https://twitter.com/it_marks",
+    icon: <FaTwitter size={24} className="hover:text-marks-300 transition-all ease-out"/>,
+  }
 ];
 
 export { phones, email, socials };

@@ -1,8 +1,8 @@
 export const partners = [
     {
         id: 1,
-        img: "/clinicasaopaulo.jpeg",
-        name: "Clínica São Paulo"
+        img: "/liciagomes.jpeg",
+        name: "Licia Gomes"
     },
     {
         id: 2,
@@ -16,13 +16,13 @@ export const partners = [
     },
     {
         id: 4,
-        img: "/clinicasaopaulo.jpeg",
-        name: "Clínica São Paulo"
+        img: "/gastrovideo.jpeg",
+        name: "Gastro Video"
     },
     {
         id: 5,
-        img: "/gastrovideo.jpeg",
-        name: "Gastro Video"
+        img: "/liciagomes.jpeg",
+        name: "Licia Gomes"
     },
     {
         id: 6,

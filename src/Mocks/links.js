@@ -12,10 +12,6 @@ const links = [
     text: "Sobre",
   },
   {
-    link: "#contact",
-    text: "Contato",
-  },
-  {
     link: "#partners",
     text: "Parceiros",
   },
