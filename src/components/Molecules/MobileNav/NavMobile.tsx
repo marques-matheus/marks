@@ -15,7 +15,7 @@ export default function NavMobile({ isOpen }: NavMobileProps) {
     lg:hidden flex flex-col justify-end text-right items-end transition-all ease-in-out duration-500`}>
       <ul className="box-content flex flex-col">
         {links.map((link, index) => (
-          <NavLink key={index} href={link.link} text={link.text} />
+          <NavLink key={index} href={link.link} text={link.text} external={link.external}/>
         ))}
       </ul>
     </nav>
