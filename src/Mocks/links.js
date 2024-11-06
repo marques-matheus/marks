@@ -21,7 +21,7 @@ const links = [
   },
   {
     link: "https://suporte.marksit.info/",
-    text: "Area do Cliente",
+    text: "Área do Cliente",
     external: true,
   }
 ];
