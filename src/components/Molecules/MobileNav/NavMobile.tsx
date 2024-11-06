@@ -9,7 +9,7 @@ type NavMobileProps = {
 export default function NavMobile({ isOpen }: NavMobileProps) {
   return (
     <nav className={`box-border 
-    absolute  left-0 w-full h-fit py-10 bg-white z-2
+    absolute  left-0 w-full h-fit py-10 bg-white z-2 pa
     ease-in-out duration-500
     ${isOpen ? "top-20" : "-top-80 opacity-0"}
     lg:hidden flex flex-col justify-end text-right items-end transition-all ease-in-out duration-500`}>

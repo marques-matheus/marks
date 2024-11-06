@@ -14,6 +14,7 @@ export default function Header() {
         width={130}
         height={37}
         priority
+        
       />
       <Nav />
       <NavMobile isOpen={isOpen}/>
