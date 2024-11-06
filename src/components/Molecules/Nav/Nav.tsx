@@ -8,7 +8,7 @@ export default function Nav() {
     <nav className="box lg:flex flex-col justify-center items-center hidden">
       <ul className="box-content flex flex-row">
         {links.map((link, index) => (
-          <NavLink key={index} href={link.link} text={link.text} />
+          <NavLink key={index} href={link.link} text={link.text} external={link.external}/>
         ))}
       </ul>
     </nav>
